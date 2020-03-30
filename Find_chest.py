@@ -10,7 +10,7 @@ def save_images(r_frame, l_frame, f_number):
     cv2.imwrite(path_to_save + "_veb_r.png", r_frame)
     cv2.imwrite(path_to_save + "_veb_l.png", l_frame)
     print(str_f_number + " is save")
-    if str_f_number == 29:
+    if str_f_number == str(29):
         print("save complete")
 
 
